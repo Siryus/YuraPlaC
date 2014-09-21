@@ -4,7 +4,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Activity - type of activity recorded
 Subject - identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-List of columns, describing signals record for
+List of columns, describing signals record for:
 -Time/Frequency
 -Body Acceleration/Gravity Acceleration/Body Acceleration Jerk/ Body Gyroscope/ Body Gyroscope Jerk
 -mean/standard deviation
