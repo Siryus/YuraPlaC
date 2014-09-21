@@ -47,3 +47,4 @@ colnames(xdata) <- cn
 xdata_gr <- group_by(xdata, activity, subject)
 xdata_gr <- summarise_each(xdata_gr, funs(mean))
 
+write.table(xdata_gr,"xdata_gr.txt", row.name=FALSE)
